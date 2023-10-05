@@ -1,0 +1,125 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #0073a8;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center; /* Centers the course logo */
+}
+
+.course-logo-container img {
+    height: 50px;
+    margin-right: 15px;
+}
+
+.header-side.right {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.profile-link {
+    margin-left: auto;
+}
+
+/* Navigation Styles */
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 10px 15px;
+}
+
+/* Course Name */
+.course-name {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    font-size: 14px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.breadcrumb a {
+    color: #0073a8;
+    margin: 0 5px;
+}
+
+/* Announcements */
+.announcement {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-top: 1px solid #0073a8;
+    border-bottom: 1px solid #0073a8;
+}
+
+/* Main Content Area */
+main {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.topic {
+    padding: 20px 0;
+    border-bottom: 1px solid #0073a8;
+}
+
+.topic:last-child {
+    border-bottom: none;
+}
+
+/* Footer Styles */
+footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* You can adjust this height as needed */
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    padding: 10px 15px;
+}
